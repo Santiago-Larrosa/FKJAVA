@@ -32,7 +32,7 @@ Useful Gradle tasks and flags:
 - `lwjgl3:run`: starts the application.
 - `test`: runs unit tests (if any).
 
-##current project status
+## Current project status
 
 Initial setup and project structure
 
