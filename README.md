@@ -4,6 +4,9 @@ A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://git
 
 This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
 
+## Integrants
+Santiago Larrosa
+
 ## Platforms
 
 - `core`: Main module with the application logic shared by all platforms.
@@ -28,6 +31,11 @@ Useful Gradle tasks and flags:
 - `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
 - `lwjgl3:run`: starts the application.
 - `test`: runs unit tests (if any).
+
+## Current project status
+
+Initial setup and project structure
+
 
 Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
 For example, `core:clean` removes `build` folder only from the `core` project.
