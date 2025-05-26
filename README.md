@@ -1,41 +1,28 @@
-# FurnaceKnightJAVA
+# Furnace Knight Dungeon
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+Un videojuego de aventura estilo roguelike con perspectiva lateral y mecánicas de combate en tiempo real, inspirado en títulos como *Dead Cells*. El objetivo es avanzar por mazmorras cada vez más difíciles, mejorar al personaje y vencer al jefe final, todo dentro de una atmósfera de fantasía.
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+## Integrantes del Grupo
 
-## Integrants
-Santiago Larrosa
+- Santiago Larrosa  
 
-## Platforms
+## Descripción Corta del Juego
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+*Furnace Knight Dungeon* es un juego de acción con elementos de roguelike en el que el jugador explora una serie de niveles interconectados dentro de un volcán activo. A medida que avanza, se enfrentará a enemigos cada vez más peligrosos, conseguira mejoras y descubrirá nuevos niveles. El jugador debe mejorar su personaje para poder enfrentarse contra los enemigos cada vez mas poderosos. El juego cuenta además con un modo multijugador cooperativo.
 
-## Gradle
+## Tecnologías Utilizadas
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+- [LibGDX](https://libgdx.com/) como framework principal de desarrollo.
+- Lenguaje: Java
+- Plataformas objetivo:
+  - Escritorio (Windows/Linux/macOS)
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+## 🚀 Cómo Compilar y Ejecutar
 
-## Current project status
+1. Clona el repositorio:
 
-Initial setup and project structure
-
-
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+   git clone https://github.com/tu-usuario/FurnaceKnightJAVA.git
+   cd FurnaceKnightJAVA
+   ./gradlew lwjgl3:run
+   ./gradlew build
+( Asegurese de tener instaldo Java 17 )
