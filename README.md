@@ -18,12 +18,12 @@
 ## Cómo Compilar y Ejecutar
 
 1. Clona el repositorio:
-
-   git clone https:[**Repositorio**](https://github.com/Santiago-Larrosa/FKJAVA)
-   cd FurnaceKnightJAVA
-   ./gradlew lwjgl3:run
-   ./gradlew build
-( Asegurese de tener instaldo Java 17 )
+   (Abrir la terminal en su computadora, instalar git en caso de no tenerlo y seguir estos pasos)
+   - git clone https://github.com/Santiago-Larrosa/FKJAVA
+   - cd FurnaceKnightJAVA
+   - ./gradlew lwjgl3:run
+   - ./gradlew build
+    ( Asegurese de tener instaldo Java 17 )
 
 ## Estructura del Proyecto
 
