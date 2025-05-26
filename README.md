@@ -17,12 +17,25 @@ Un videojuego de aventura estilo roguelike con perspectiva lateral y mecánicas 
 - Plataformas objetivo:
   - Escritorio (Windows/Linux/macOS)
 
-## 🚀 Cómo Compilar y Ejecutar
+## Cómo Compilar y Ejecutar
 
 1. Clona el repositorio:
 
-   git clone https://github.com/tu-usuario/FurnaceKnightJAVA.git
+   git clone https:[**Repositorio**](https://github.com/Santiago-Larrosa/FKJAVA)
    cd FurnaceKnightJAVA
    ./gradlew lwjgl3:run
    ./gradlew build
 ( Asegurese de tener instaldo Java 17 )
+
+## Estructura del Proyecto
+
+- `core/`: Contiene la lógica principal del juego, incluyendo las clases base y el juego en si.
+- `lwjgl3/`: Módulo específico para la plataforma de escritorio, utilizando LWJGL3 para la implementación.
+- `assets/`: Carpeta destinada a los recursos del juego, como imágenes, sonidos y otros archivos multimedia.
+- `gradle/` y archivos relacionados (`gradlew`, `gradlew.bat`, `build.gradle`, etc.): Archivos y configuraciones necesarios para la construcción y gestión del proyecto mediante Gradle.
+
+## Estado Actual del Proyecto
+
+Configuración inicial y estructura del proyecto.
+
+
